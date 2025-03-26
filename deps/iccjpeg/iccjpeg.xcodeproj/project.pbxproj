@@ -1,0 +1,157 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D974A4E7E061B7E8D3517E7A /* iccjpeg.c in Sources */ = {isa = PBXBuildFile; fileRef = 7D5753F3D01C6843770541CB /* iccjpeg.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1189618E5ABE1078EC9DC378 /* iccjpeg.gyp */ = {isa = PBXFileReference; explicitFileType = sourcecode; path = iccjpeg.gyp; sourceTree = "<group>"; };
+		2407BF3E32905601CB736951 /* common.gypi */ = {isa = PBXFileReference; explicitFileType = sourcecode; name = common.gypi; path = ../../build/common.gypi; sourceTree = "<group>"; };
+		548A159F249D909F127AADF6 /* libiccjpeg.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libiccjpeg.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D5753F3D01C6843770541CB /* iccjpeg.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = iccjpeg.c; sourceTree = "<group>"; };
+		903299586AA9225894E145A5 /* iccjpeg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iccjpeg.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B922B829F91264FCE9DE518 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B93C8383B207C08EEAEC964 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				548A159F249D909F127AADF6 /* libiccjpeg.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61660EC5A4F4540CBEF68C4E /* Build */ = {
+			isa = PBXGroup;
+			children = (
+				2407BF3E32905601CB736951 /* common.gypi */,
+				1189618E5ABE1078EC9DC378 /* iccjpeg.gyp */,
+			);
+			name = Build;
+			sourceTree = "<group>";
+		};
+		BF23C664F1B04156E639E896 = {
+			isa = PBXGroup;
+			children = (
+				FD7E85AF179BFC7D024754E0 /* Source */,
+				4B93C8383B207C08EEAEC964 /* Products */,
+				61660EC5A4F4540CBEF68C4E /* Build */,
+			);
+			sourceTree = "<group>";
+		};
+		FD7E85AF179BFC7D024754E0 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				7D5753F3D01C6843770541CB /* iccjpeg.c */,
+				903299586AA9225894E145A5 /* iccjpeg.h */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		158FDFF8AFE2F61CC503BCF9 /* iccjpeg */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA2D1EFBDDBB7064AB1EF37D /* Build configuration list for PBXNativeTarget "iccjpeg" */;
+			buildPhases = (
+				B00C673AA22A09C5A005970B /* Sources */,
+				5B922B829F91264FCE9DE518 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iccjpeg;
+			productName = iccjpeg;
+			productReference = 548A159F249D909F127AADF6 /* libiccjpeg.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED4E4126DFE820D8C745277B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+			};
+			buildConfigurationList = 8A5BC4179043FFDE610F84D6 /* Build configuration list for PBXProject "iccjpeg" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 1;
+			mainGroup = BF23C664F1B04156E639E896;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				158FDFF8AFE2F61CC503BCF9 /* iccjpeg */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B00C673AA22A09C5A005970B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D974A4E7E061B7E8D3517E7A /* iccjpeg.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6269E8D5564B6F79A5EB97FF /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INTERMEDIATE_DIR = "$(PROJECT_DERIVED_FILE_DIR)/$(CONFIGURATION)";
+				SHARED_INTERMEDIATE_DIR = "$(SYMROOT)/DerivedSources/$(CONFIGURATION)";
+			};
+			name = Default;
+		};
+		9F4CA7DAFDB063FD9580360B /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				HEADER_SEARCH_PATHS = ../libjpeg_turbo;
+				PRODUCT_NAME = iccjpeg;
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A5BC4179043FFDE610F84D6 /* Build configuration list for PBXProject "iccjpeg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6269E8D5564B6F79A5EB97FF /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+		CA2D1EFBDDBB7064AB1EF37D /* Build configuration list for PBXNativeTarget "iccjpeg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F4CA7DAFDB063FD9580360B /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED4E4126DFE820D8C745277B /* Project object */;
+}

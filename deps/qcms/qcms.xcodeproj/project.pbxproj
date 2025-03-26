@@ -1,0 +1,183 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FF18AB7CE2EB0E4A85CA99D /* matrix.c in Sources */ = {isa = PBXBuildFile; fileRef = 180487456FA7F57B63ECC506 /* matrix.c */; };
+		605F9E6F327C9BE40DB1861E /* transform_util.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C006274A4F0C00EDC5EA5CC /* transform_util.c */; };
+		799E94DB3BB729D37D4319D3 /* iccread.c in Sources */ = {isa = PBXBuildFile; fileRef = 2FF852A435C18EF0A353F984 /* iccread.c */; };
+		9297E86740411E37CD74670B /* transform.c in Sources */ = {isa = PBXBuildFile; fileRef = 536361BE2623AE96EAED9084 /* transform.c */; };
+		99FCC92FCFFD5262DA8D2CE9 /* chain.c in Sources */ = {isa = PBXBuildFile; fileRef = 1C08215E1BE92B6C4DA9FFC3 /* chain.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		180487456FA7F57B63ECC506 /* matrix.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = matrix.c; sourceTree = "<group>"; };
+		1C08215E1BE92B6C4DA9FFC3 /* chain.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = chain.c; sourceTree = "<group>"; };
+		29D85A95058F613281EF74E4 /* qcms.gyp */ = {isa = PBXFileReference; explicitFileType = sourcecode; path = qcms.gyp; sourceTree = "<group>"; };
+		2FF852A435C18EF0A353F984 /* iccread.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = iccread.c; sourceTree = "<group>"; };
+		536361BE2623AE96EAED9084 /* transform.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = transform.c; sourceTree = "<group>"; };
+		5B832F9EA643B3210693792D /* transform_util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = transform_util.h; sourceTree = "<group>"; };
+		63E525D11967D34A8DB412D7 /* chain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = chain.h; sourceTree = "<group>"; };
+		668A38BC354C4B7885DB39FF /* qcms.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = qcms.h; sourceTree = "<group>"; };
+		715C26BAE8BF2AB402309967 /* libqcms.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libqcms.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7353027CA735DB3C353A5A18 /* qcmsint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = qcmsint.h; sourceTree = "<group>"; };
+		7C006274A4F0C00EDC5EA5CC /* transform_util.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = transform_util.c; sourceTree = "<group>"; };
+		9616B3920ADC9BE7FCFA8582 /* common.gypi */ = {isa = PBXFileReference; explicitFileType = sourcecode; name = common.gypi; path = ../../build/common.gypi; sourceTree = "<group>"; };
+		AD994A30BFD0AD914A6818D3 /* qcmstypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = qcmstypes.h; sourceTree = "<group>"; };
+		EC998686F05F3F6DE03A8307 /* matrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = matrix.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		377213D7187883E9A71529BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		451832C7A8A801DE0B1315BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				715C26BAE8BF2AB402309967 /* libqcms.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D85F03136C129D40A821946 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				1C08215E1BE92B6C4DA9FFC3 /* chain.c */,
+				63E525D11967D34A8DB412D7 /* chain.h */,
+				2FF852A435C18EF0A353F984 /* iccread.c */,
+				180487456FA7F57B63ECC506 /* matrix.c */,
+				EC998686F05F3F6DE03A8307 /* matrix.h */,
+				668A38BC354C4B7885DB39FF /* qcms.h */,
+				7353027CA735DB3C353A5A18 /* qcmsint.h */,
+				AD994A30BFD0AD914A6818D3 /* qcmstypes.h */,
+				536361BE2623AE96EAED9084 /* transform.c */,
+				7C006274A4F0C00EDC5EA5CC /* transform_util.c */,
+				5B832F9EA643B3210693792D /* transform_util.h */,
+			);
+			name = Source;
+			path = src;
+			sourceTree = "<group>";
+		};
+		54E11AC958055E37FFC7FA4B = {
+			isa = PBXGroup;
+			children = (
+				4D85F03136C129D40A821946 /* Source */,
+				451832C7A8A801DE0B1315BD /* Products */,
+				B927A918EE96F0EDAB7ABE02 /* Build */,
+			);
+			sourceTree = "<group>";
+		};
+		B927A918EE96F0EDAB7ABE02 /* Build */ = {
+			isa = PBXGroup;
+			children = (
+				9616B3920ADC9BE7FCFA8582 /* common.gypi */,
+				29D85A95058F613281EF74E4 /* qcms.gyp */,
+			);
+			name = Build;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5301B5F7C5CACD136C80F17F /* qcms */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83F280307F58F81B99B15D3F /* Build configuration list for PBXNativeTarget "qcms" */;
+			buildPhases = (
+				65F8D05CE20BF7F6812800F4 /* Sources */,
+				377213D7187883E9A71529BA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = qcms;
+			productName = qcms;
+			productReference = 715C26BAE8BF2AB402309967 /* libqcms.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85F870B5D0449B1F127AC936 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+			};
+			buildConfigurationList = 3D7C353736F38993117951E4 /* Build configuration list for PBXProject "qcms" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 1;
+			mainGroup = 54E11AC958055E37FFC7FA4B;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5301B5F7C5CACD136C80F17F /* qcms */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65F8D05CE20BF7F6812800F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99FCC92FCFFD5262DA8D2CE9 /* chain.c in Sources */,
+				799E94DB3BB729D37D4319D3 /* iccread.c in Sources */,
+				2FF18AB7CE2EB0E4A85CA99D /* matrix.c in Sources */,
+				9297E86740411E37CD74670B /* transform.c in Sources */,
+				605F9E6F327C9BE40DB1861E /* transform_util.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		546C30025556BD8930A6DCEC /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = qcms;
+			};
+			name = Default;
+		};
+		DEA79AB39A42471A7F3A0381 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INTERMEDIATE_DIR = "$(PROJECT_DERIVED_FILE_DIR)/$(CONFIGURATION)";
+				SHARED_INTERMEDIATE_DIR = "$(SYMROOT)/DerivedSources/$(CONFIGURATION)";
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D7C353736F38993117951E4 /* Build configuration list for PBXProject "qcms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEA79AB39A42471A7F3A0381 /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+		83F280307F58F81B99B15D3F /* Build configuration list for PBXNativeTarget "qcms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				546C30025556BD8930A6DCEC /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 85F870B5D0449B1F127AC936 /* Project object */;
+}
